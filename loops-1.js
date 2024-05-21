@@ -105,11 +105,10 @@ console.log(output);
 console.log("Exercise 4")
 let space2 = 5;
 for(i = 1; i <=5;i++){
-    console.log(''.repeat(space2 -i) + '*'.repeat(i)+
-    '*'.repeat(i-1))
+    console.log(' '.repeat(space2 -i) + '*'.repeat(i)+ '*'.repeat(i-1))
 }
 for(i = 1; i<=4;i++){
-    console.log(''.repeat(i) +'*'.repeat(space2-i) +'*'.repeat(4-i));
+    console.log(' '.repeat(i) +'*'.repeat(space2-i) + '*'.repeat(4-i));
 }
 
 console.log('Exercise 5')
